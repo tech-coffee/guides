@@ -4,22 +4,22 @@
 Dans ce guide, nous verrons les étapes à suivre pour avoir une installation basique et quelques étapes facultatives.
 Il y a plusieurs autre distribution qui seront plus simple à installer, par exemple Ubuntu, mais si vous y mettez le temps nécessaire, ça en vaudra la peine.
 
-** Table des matières :toc:
+* Table des matières :toc:
 
 - [[#pre-installation][Pré-installation]]
   - [[#connexion-à-internet][Connexion a internet]]
   - [[#partitionner-le-disque][Partitionner le disque]]
-  - [[#formater-les-disques][Formater les partitions]]
+  - [[#formater-les-partitions][Formater les partitions]]
   - [[#monter-les-partitions][Monter les partitions]]
 - [[#installation][Installation]]
 
-** pré-installation
+* pré-installation
 
-*** Télécharger l'iso
+** Télécharger l'iso
 
 [[https://archlinux.org/download/][Telecharger l'iso ici]] (un client torrent cera necessaire), créer une clé usb bootable a l'aide de [[https://rufus.ie/en/][rufus]] et demarrer le pc sur la clé usb.
 
-*** Connexion à internet
+** Connexion à internet
 
 Pour s'assurer d'avoir internet, on va utiliser cette commande:
 #+begin_src
@@ -39,7 +39,7 @@ Si celle-ci apparait, verifier le cable ethernet ou [[#configurer-wifi][configur
 ping: connect: Network is unreachable
 #+end_src
 
-**** Configurer Wifi
+*** Configurer Wifi
 
 Pour commencer, entrer cette commande:
 #+begin_src
@@ -66,8 +66,8 @@ Finalement, connecez vous a votre WI-FI:
 [iwd]# station <device> connect <SSID du reseau>
 #+end_src
 
-*** Partitionner le disque
+** Partitionner le disque
 
-*** Formater les partitions
+** Formater les partitions
 
-*** Monter les partitions
+** Monter les partitions
