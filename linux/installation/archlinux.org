@@ -58,12 +58,12 @@ Ensuite, effectuez une analyse des reseaux:
 
 Vous pouver afficher la liste des reseaux:
 #+begin_src
-station <device> get-networks
+[iwd]# station <device> get-networks
 #+end_src
 
 Finalement, connecez vous a votre WI-FI:
 #+begin_src
-station <device> connect <SSID du reseau>
+[iwd]# station <device> connect <SSID du reseau>
 #+end_src
 
 *** Partitionner le disque
